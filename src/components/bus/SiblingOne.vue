@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import { EventHub } from '../../main.js'
+import { EventHub } from '../../main'
 
 export default {
   name: 'sibling-one',
@@ -13,13 +13,13 @@ export default {
     }
   },
   created () {
-    EventHub.$on('increase', () => {
+    EventHub.$on('increaseVal', () => {
          this.myData += 1;
     });
-    EventHub.$on('decrease', () => {
+    EventHub.$on('decreaseVal', () => {
          this.myData -= 1;
     });
-    EventHub.$on('reset', () => {
+    EventHub.$on('resetVal', () => {
          this.myData = 10;
     });
   }
