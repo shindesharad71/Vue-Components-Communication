@@ -1,9 +1,6 @@
 <template>
   <div>
     <app-nav></app-nav>
-    <div class="text-center" style="margin-top: 40px;">
-      <h1>Vue CC - Vue Components Communiation Methods</h1>
-    </div>
     <transition name="fade" mode="out-in">
       <router-view class="set-margin"></router-view>
     </transition>
@@ -22,6 +19,11 @@ export default {
 </script>
 
 <style>
+a, a:hover {
+  text-decoration: none;
+  color: #000;
+}
+
 .set-margin {
   margin: 40px auto;
 }

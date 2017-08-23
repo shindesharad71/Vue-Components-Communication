@@ -4,6 +4,7 @@ import App from './App.vue'
 
 // import components for router
 import Home from './components/Home.vue'
+import Props from './components/Props.vue'
 
 Vue.use(VueRouter)
 
@@ -12,7 +13,8 @@ const router = new VueRouter({
     mode: 'hash',
     routes: [
         { path: '/', component: Home },
-        { path: '*', redirect: '/' }
+        { path: '*', redirect: '/' },
+        { path: '/props', component: Props }
     ]
 })
 
