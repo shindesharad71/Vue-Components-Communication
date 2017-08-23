@@ -19,6 +19,10 @@ export default {
 </script>
 
 <style>
+* {
+  font-family: 'Ubuntu', sans-serif;
+}
+
 a, a:hover {
   text-decoration: none;
   color: #000;

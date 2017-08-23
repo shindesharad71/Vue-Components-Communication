@@ -1,6 +1,6 @@
 <template>
 <div class="container">
-    <h1 class="text-center">Parent To Child Using Props</h1>
+    <h1 class="text-center">Parent To Child Using <strong>Props</strong></h1>
     <div class="row" style="margin-top: 20px;">
         <div class="col-md-6">
             <div class="card">
