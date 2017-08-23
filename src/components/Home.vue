@@ -25,6 +25,16 @@
                     </div>
                 </router-link>
             </div>
+            <div class="col-sm-3">
+                <router-link to="/event-bus" tag="a">
+                    <div class="card border-info mb-3">
+                        <div class="card-body">
+                            <h4 class="card-title">Event Bus</h4>
+                            <h6 class="card-subtitle mb-2 text-muted">Sibling Components</h6>
+                        </div>
+                    </div>
+                </router-link>
+            </div>
         </div>
     </div>
 </div>

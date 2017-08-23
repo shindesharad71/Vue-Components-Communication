@@ -7,9 +7,15 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
-            <router-link active-class="active" class="nav-link" tag="a" to="/posts">Blog</router-link>
-        </li>
+            <li class="nav-item">
+                <router-link active-class="active" class="nav-link" tag="a" to="/props">Props</router-link>
+            </li>
+            <li class="nav-item">
+                <router-link active-class="active" class="nav-link" tag="a" to="/custom-events">Custom Events</router-link>
+            </li>
+            <li class="nav-item">
+                <router-link active-class="active" class="nav-link" tag="a" to="/event-bus">Event Bus</router-link>
+            </li>
         </ul>
     </div>
 </nav>
