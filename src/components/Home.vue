@@ -42,6 +42,7 @@
 
 <script>
 export default {
-  name: 'home'
+  name: 'home',
+  load: '&lt;script&gt; src="my.js"'
 }
 </script>
