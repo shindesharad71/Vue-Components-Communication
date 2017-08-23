@@ -19,8 +19,10 @@
                 <h4 class="card-header">Code</h4>
                 <div class="card-body">
                     <ul class="list-group list-group-flush">
-                        <a href="https://github.com/shindesharad71/Vue-Components-Communication/blob/master/src/components/CustomEvents.vue" target="_blank"><li class="list-group-item">Parent Custom Events Component</li></a>
-                        <a href="https://github.com/shindesharad71/Vue-Components-Communication/blob/master/src/components/CustomEventsChild.vue" target="_blank"><li class="list-group-item">Child Custom Events Component</li></a>
+                        <a href="https://github.com/shindesharad71/Vue-Components-Communication/blob/master/src/main.js" target="_blank"><li class="list-group-item">Created New Instance in Main Js</li></a>
+                        <a href="https://github.com/shindesharad71/Vue-Components-Communication/blob/master/src/components/bus/EventBus.vue" target="_blank"><li class="list-group-item">Parent Wrapper Component</li></a>
+                        <a href="https://github.com/shindesharad71/Vue-Components-Communication/blob/master/src/components/bus/SiblingOne.vue" target="_blank"><li class="list-group-item">Sibling Component 1</li></a>
+                        <a href="https://github.com/shindesharad71/Vue-Components-Communication/blob/master/src/components/bus/SiblingTwo.vue" target="_blank"><li class="list-group-item">Sibling Component 2</li></a>
                     </ul>
                 </div>
             </div>
