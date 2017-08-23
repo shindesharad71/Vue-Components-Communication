@@ -5,6 +5,7 @@ import App from './App.vue'
 // import components for router
 import Home from './components/Home.vue'
 import Props from './components/Props.vue'
+import CustomEvents from './components/CustomEvents.vue'
 
 Vue.use(VueRouter)
 
@@ -14,7 +15,8 @@ const router = new VueRouter({
     routes: [
         { path: '/', component: Home },
         { path: '*', redirect: '/' },
-        { path: '/props', component: Props }
+        { path: '/props', component: Props },
+        { path: '/custom-events', component: CustomEvents }
     ]
 })
 

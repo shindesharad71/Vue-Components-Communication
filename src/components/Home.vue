@@ -16,7 +16,7 @@
                 </router-link>
             </div>
             <div class="col-sm-3">
-                <router-link to="/props" tag="a">
+                <router-link to="/custom-events" tag="a">
                     <div class="card border-info mb-3">
                         <div class="card-body">
                             <h4 class="card-title">Custom Events</h4>
